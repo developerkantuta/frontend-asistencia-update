@@ -2,7 +2,7 @@ if (!sessionStorage.getItem('adminToken')) location.href = 'index.html';
 
 const VISTAS = [
   ['resumen', 'Resumen', 'chart'], ['asistencias', 'Asistencias', 'list'], ['estudiantes', 'Estudiantes', 'users'],
-  ['fechas', 'Fechas de clase', 'cal'], ['importar', 'Importar Excel', 'up'], ['bitacora', 'Bitácora', 'shield'],
+  ['fechas', 'Fechas de clase', 'cal'], ['importar', 'Importar Excel', 'up'], ['bitacora', 'Actividades', 'shield'],
 ];
 let vista = 'resumen', asist = [], estudiantes = [];
 
